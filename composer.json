@@ -1,7 +1,7 @@
 {
-  "name": "ibrand/laravel-aliyun-mail",
+  "name": "rayyang88/laravel-aliyun-mail",
   "type": "library",
-  "description": "ibrand aliyun mail",
+  "description": "rayyang88 aliyun mail",
   "keywords": [
     "ibrand",
     "aliyun mail"
@@ -9,8 +9,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "shjchen",
-      "email": "ibrand.shjchen@foxmail.com"
+      "name": "rayyang88",
+      "email": "rayyang88@163.com"
     }
   ],
   "require": {
@@ -19,13 +19,13 @@
 
   "autoload": {
     "psr-4": {
-      "iBrand\\AliyunMail\\": "src/"
+      "rayyang88\\AliyunMail\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "iBrand\\AliyunMail\\ServiceProvider"
+        "rayyang88\\AliyunMail\\ServiceProvider"
       ]
     }
   }
