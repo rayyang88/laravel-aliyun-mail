@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace iBrand\AliyunMail;
+namespace rayyang88\AliyunMail;
 
 use ClientException;
 use Dm\Request\V20151123 as Dm;
