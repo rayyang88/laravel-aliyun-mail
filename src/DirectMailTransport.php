@@ -15,7 +15,7 @@ use ClientException;
 use Dm\Request\V20151123 as Dm;
 use Illuminate\Mail\Transport\Transport;
 use ServerException;
-use Swift_Mime_SimpleMessage;
+use Swift_Mime_Message;
 
 require_once __DIR__.'/../libs/aliyun-php-sdk-core/Config.php';
 
@@ -50,7 +50,7 @@ class DirectMailTransport extends Transport
      *
      * @return int
      */
-    public function send(Swift_Mime_SimpleMessage $message, &$failedRecipients = null)
+    public function send(Swift_Mime_Message $message, &$failedRecipients = null)
     {
         $this->beforeSendPerformed($message);
 
